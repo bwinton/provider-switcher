@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "scripts": {
     "pretest": "node_modules/jshint/bin/jshint lib/*.js",
-    "test": "cfx run -b /Applications/Local/Firefox.app -p profile.testing",
+    "test": "cfx run -b /Applications/Local/FirefoxDeveloperEdition.app -p profile.testing",
     "run-tests": "cfx test",
     "prebuild": "node_modules/jshint/bin/jshint lib/*.js",
     "build": "cfx xpi --update-link https://people.mozilla.com/~bwinton/$npm_package_name/$npm_package_name.xpi --update-url https://people.mozilla.com/~bwinton/$npm_package_name/$npm_package_name.update.rdf",
