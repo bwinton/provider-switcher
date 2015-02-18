@@ -1,0 +1,24 @@
+.custom.engine-container {
+  display: block;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  padding: 2px 0px 0px;
+  height: 10px;
+}
+
+.custom.searchbar-engine-image {
+  margin-left: 4px;
+  min-height: 20px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  opacity: 0.3;
+}
+
+.custom.searchbar-engine-image:first-child {
+  margin-left: 0px;
+}
+
+.custom.searchbar-engine-image[selected="true"] {
+  border-bottom: 2px solid black;
+  opacity: 1;
+}
